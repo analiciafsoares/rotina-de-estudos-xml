@@ -31,14 +31,14 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="Adicionar" />
+            android:text="@string/adicionar" />
 
         <Button
             android:id="@+id/btnResumo"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="Resumo" />
+            android:text="@string/resumo" />
     </LinearLayout>
 
 </LinearLayout>
