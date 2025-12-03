@@ -135,9 +135,8 @@ O projeto segue o padrão solicitado:
 4.  Mantenha o mesmo package:
 
 ```{=html}
-<!-- -->
+com.example.rotinadasemana
 ```
-    com.example.rotinadasemana
 
 5.  Rode no emulador ou em um celular físico
 
