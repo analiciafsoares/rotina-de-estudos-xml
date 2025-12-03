@@ -1,4 +1,4 @@
-# 📘 Rotina de Estudos da Semana --- Projeto Android (Kotlin + XML)
+# 📘 Rotina de Estudos da Semana - Projeto Android (Kotlin + XML)
 
 Este é um aplicativo Android simples desenvolvido para fins
 educacionais.\
@@ -56,9 +56,9 @@ memória**, conforme solicitado na atividade da disciplina.
 
 ## 🧠 Funcionamento do App
 
-### **Repository --- Armazenamento em Memória**
+### **Repository - Armazenamento em Memória**
 
-O app **não utiliza banco de dados**.\
+O app **não utiliza banco de dados**.
 Os dados são armazenados em um objeto Kotlin chamado `Repository`, que é
 mantido enquanto o app estiver aberto.
 
@@ -74,19 +74,19 @@ Exemplo:
 
 ## 🚀 Activities do Aplicativo
 
-### **1. MainActivity --- Tela Inicial**
+### **1. MainActivity - Tela Inicial**
 
 -   Exibe os dias da semana usando `ListView`.
 -   Ao selecionar um dia, abre a `DiaActivity`.
 
-### **2. DiaActivity --- Rotina do Dia**
+### **2. DiaActivity - Rotina do Dia**
 
 -   Exibe matérias do dia selecionado.
 -   Permite adicionar novas atividades via `AlertDialog`.
 -   Botão para acessar o **Resumo da Semana**.
 -   Atualiza automaticamente o `Repository`.
 
-### **3. ResumoActivity --- Resumo Semanal**
+### **3. ResumoActivity - Resumo Semanal**
 
 Exemplo de exibição:
 
@@ -102,7 +102,7 @@ Exemplo de exibição:
 
 O projeto segue o padrão solicitado:
 
--   Interface simples\
+-   Interface simples
 -   Componentes básicos:
     -   `LinearLayout`
     -   `TextView`
@@ -112,7 +112,7 @@ O projeto segue o padrão solicitado:
 
 ------------------------------------------------------------------------
 
-## 📑 AndroidManifest --- Declaração das Activities
+## 📑 AndroidManifest - Declaração das Activities
 
 ``` xml
 <activity android:name=".ResumoActivity" />
@@ -129,9 +129,9 @@ O projeto segue o padrão solicitado:
 
 ## ▶️ Como Rodar o Projeto
 
-1.  Abra o **Android Studio**\
-2.  Crie um projeto **Empty Activity**\
-3.  Substitua os arquivos pelos deste repositório\
+1.  Abra o **Android Studio**
+2.  Crie um projeto **Empty Activity**
+3.  Substitua os arquivos pelos deste repositório
 4.  Mantenha o mesmo package:
 
 ```{=html}
